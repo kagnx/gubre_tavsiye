@@ -1,0 +1,44 @@
+Güncellendi ve exe oluşturuldu. Şimdi çalıştırma talimatlarını vereceğim.
+---
+Mobil Uygulama Nasıl Çalıştırılır
+# 1. Kivy ve KivyMD kur
+pip install kivy kivymd
+# 2. Mobil uygulamayı çalıştır
+python mobile/main.py
+APK oluşturmak için:
+pip install buildozer
+cd mobile
+buildozer android debug
+---
+Web Versiyonu Nasıl Çalıştırılır
+# 1. Flask kur
+pip install flask
+# 2. Web sunucusunu başlat
+python web/app.py
+Tarayıcıda aç:
+http://localhost:5000
+---
+Masaüstü Uygulaması
+# Python ile doğrudan
+python gubre_tavsiye.py
+# veya exe ile (kurulum gerektirmez)
+dist\gubre_tavsiyesi.exe
+---
+Kısayol Tuşları
+Kısayol	İşlev
+Ctrl+H	Hesapla
+Ctrl+P	PDF Kaydet
+Ctrl+E	E-posta Gönder
+Ctrl+O	Dosya Yükle (Excel/CSV)
+Ctrl+G	Geçmiş
+Ctrl+L	Konum Bul
+Ctrl+T	Tema Değiştir (Aydınlık/Karanlık)
+Ctrl+D	Dil Değiştir (TR/EN)
+Ctrl+Q	Çıkış
+---
+PDF'e Eklenen Uyarı ve Sorumluluk Reddi
+PDF'in alt kısmına beyaz arka planlı kutu içinde:
+- Kırmızı ünlem ikonu ile dikkat uyarısı
+- Uyari metni: Kesin gübre dozları için Tarım ve Orman İl/İlçe Md.'ne danışınız
+- Sorumluluk Reddi: Bu belge genel rehber niteliğindedir
+Dosya: dist\gubre_tavsiyesi.exe (78 MB)
